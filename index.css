@@ -1,0 +1,98 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 2069px;
+    background: #FFFFFF;
+    margin: 0px;
+}
+.barra-superior{
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #DA0000;
+}
+
+ul{
+    list-style: none;
+}
+
+.ipizza{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 77px;
+    top: 9px;
+    background: #F8F3F3;
+}
+
+
+.logo{
+    position: absolute;
+    width: 338px;
+    height: 34px;
+    left: 144px;
+    top: 9px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+
+.ilogin{
+    position: absolute;
+width: 42px;
+height: 42px;
+left: 1070px;
+top: 9px;
+background: #F8F3F3;
+border-radius: 50%;
+}
+
+
+
+.login{
+    position: absolute;
+    width: 83px;
+    height: 26px;
+    left: 1133px;
+    top: 17px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.iconta{
+    position: absolute;
+width: 42px;
+height: 42px;
+left: 1235px;
+top: 9px;
+background: #F8F3F3;
+border-radius: 50%;
+}
+
+.conta{
+    position: absolute;
+width: 94px;
+height: 27px;
+left: 1298px;
+top: 17px;
+
+font-family: Smooch Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
