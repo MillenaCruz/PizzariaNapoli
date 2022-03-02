@@ -5,6 +5,7 @@ body{
     background: #FFFFFF;
     margin: 0px;
 }
+
 .barra-superior{
     position: absolute;
     width: 1440px;
@@ -16,6 +17,12 @@ body{
 
 ul{
     list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+
+    white-space: nowrap;
 }
 
 .ipizza{
@@ -26,7 +33,6 @@ ul{
     top: 9px;
     background: #F8F3F3;
 }
-
 
 .logo{
     position: absolute;
@@ -46,14 +52,22 @@ ul{
 
 .ilogin{
     position: absolute;
-width: 42px;
-height: 42px;
-left: 1070px;
-top: 9px;
-background: #F8F3F3;
-border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    left: 1070px;
+    top: 9px;
+    background: #F8F3F3;
+    border-radius: 50%;
 }
 
+.material-icons.tst1{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1070px;
+    top: 9px;
+    font-size: 42px;
+}
 
 
 .login{
@@ -73,26 +87,376 @@ border-radius: 50%;
 
 .iconta{
     position: absolute;
-width: 42px;
-height: 42px;
-left: 1235px;
-top: 9px;
-background: #F8F3F3;
-border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    left: 1235px;
+    top: 9px;
+    background: #F8F3F3;
+    border-radius: 50%;
+}
+
+.material-icons.tst2{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1235px;
+    top: 9px;
+    font-size: 42px;
 }
 
 .conta{
     position: absolute;
-width: 94px;
-height: 27px;
-left: 1298px;
-top: 17px;
+    width: 94px;
+    height: 27px;
+    left: 1298px;
+    top: 17px;
+
+    font-family: "Smooch Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.banner{
+    /* position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 60px;
+    text-align: center;*/
+    position: absolute;
+    width: 1340px;
+    height: 482px;
+    left: calc(50% - 1340px/2);
+    top: 75px;
+    border-radius: 60px;
+}/*editar posição*/
+
+/*.class-img{
+    width: 70%;
+    margin: 50px;
+    border-radius: 10%;
+}*/
+
+.barrapizzaebebidas{
+    position: absolute;
+    width: 1000px;
+    height: 40px;
+    left: 220px;
+    top: 569px;
+    background: rgba(222, 26, 26, 0.9);
+    border-radius: 60px;
+}
+
+.textocardapiop{
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 414px;
+    top: 569px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.textocardapiob{
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 939px;
+    top: 569px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+
+.cardapio-tipo-itens{
+    position: relative;
+    top: 900px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.tipo-itens{
+    position: relative;
+    background-color: #DA0000;
+    border-radius: 98px;
+    width: 840px;
+    height: 20px;
+    
+    justify-content: center;
+}
+
+.cardapio-produtos{
+    position: relative;
+    top: 641px;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.listagem_produtos{
+    display:block;
+    background-color: #F6F6DE;
+    border-radius: 95px;
+    margin: 10px;
+    padding: 0px;
+    justify-content: center;
+    width: 40%;
+}
+
+.produto{
+    position: relative;
+    display: block;
+    top:70px;
+    width: 85%;
+    height: 150px;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #DA0000;*/
+    text-align: center;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.pic_prod{
+    display: flex;
+    align-items: flex-end;
+}
+
+.pic_prod div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 800px;
+    height: 150px;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    border-radius: 20px;
+}
+
+.info_prod {
+    display: block;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 1700px;
+    background: #DA0000;
+}
+
+.ver_mais{
+    position: relative;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+.rodapé{
+    position: absolute;
+    width: 1440px;
+    height: 248px;
+    left: 0px;
+    top: 1833px;
+
+    background: rgba(218, 0, 0, 0.9);
+    border-radius: 0px;
+}
+
+.sobrenos{
+    position: absolute;
+width: 124px;
+height: 48px;
+left: 62px;
+top: 1843px;
 
 font-family: Smooch Sans;
 font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
 
 color: #FFFFFF;
+}
+
+.endereço{
+    position: absolute;
+    width: 142px;
+    height: 42px;
+    left: 342px;
+    top: 1845px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.material-icons.tst3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 272px;
+    top: 1904px;
+
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.end2{
+    position: absolute;
+    width: 286px;
+    height: 148px;
+    left: 313px;
+    top: 1903px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.atendimento{
+    position: absolute;
+    width: 278px;
+    height: 46px;
+    left: 678px;
+    top: 1845px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.material-icons.tst4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 663px;
+    top: 1899px;
+
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.fone{
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    left: 710px;
+    top: 1894px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.material-icons.tst5{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 667px;
+    top: 1950px;
+    color: #FFFFFF;
+}
+.wpp{
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    left: 710px;
+    top: 1946px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.termos{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 1189px;
+    top: 1842px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.termostexto{
+    position: absolute;
+    width: 345px;
+    height: 132px;
+    left: 1068px;
+    top: 1891px;
+
+    font-family: Smooch Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
 }
